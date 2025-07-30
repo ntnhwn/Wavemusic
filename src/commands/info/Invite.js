@@ -51,7 +51,7 @@ module.exports = class Invite extends Command {
       new ButtonBuilder()
         .setLabel("My Server")
         .setStyle(ButtonStyle.Link)
-        .setURL("https://discord.gg/STXurwnZD5")
+        .setURL("https://discord.gg/6QMXgayXyD")
     );
     return await ctx.sendMessage({
       embeds: [
