@@ -57,7 +57,7 @@ module.exports = class About extends Command {
       .addFields([
         {
           name: "Creator",
-          value: "[Thien Nhan](https://github.com/ntnhwn)",
+          value: "[Thien Nhan](http://t.me/ntnhwn)",
           inline: true,
         },
       ]);
