@@ -33,20 +33,20 @@ module.exports = class About extends Command {
   async run(client, ctx) {
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setLabel("Invite WaveMusic")
+        .setLabel("Invite Thien Nhan Bot")
         .setStyle(ButtonStyle.Link)
         .setURL(
-          `https://discord.com/api/oauth2/authorize?client_id=875635121770889257&permissions=8&scope=bot%20applications.commands`
+          `https://discord.com/api/oauth2/authorize?client_id=999840992905678960&permissions=8&scope=bot%20applications.commands`
         ),
       new ButtonBuilder()
         .setLabel("Support Server")
         .setStyle(ButtonStyle.Link)
-        .setURL("https://discord.gg/ns8CTk9J3e")
+        .setURL("https://discord.gg/6QMXgayXyD")
     );
     const embed = this.client
       .embed()
       .setAuthor({
-        name: "WaveMusic",
+        name: "ntnhwn",
         iconURL:
           "https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png",
       })
@@ -57,22 +57,7 @@ module.exports = class About extends Command {
       .addFields([
         {
           name: "Creator",
-          value: "[Blacky#9125](https://github.com/brblacky)",
-          inline: true,
-        },
-        {
-          name: "Repository",
-          value: "[Here](https://github.com/brblacky/WaveMusic)",
-          inline: true,
-        },
-        {
-          name: "Support",
-          value: "[Here](https://discord.gg/ns8CTk9J3e)",
-          inline: true,
-        },
-        {
-          name: "\u200b",
-          value: `He really wanted to make his first open source project ever for more coding experience. In this project, he was challenged to make a project with less bugs. Hope you enjoy using WaveMusic!`,
+          value: "[Thien Nhan](https://github.com/ntnhwn)",
           inline: true,
         },
       ]);
